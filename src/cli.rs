@@ -7,9 +7,9 @@ pub fn run() {
     let status = "100%";
 
 //    println!("Command: {}", command);
-    if command == "hello" {
+    if command == "hello".to_string() {
         println!("Hi {}, how are you?", name);
-    } else if command == "status" {
+    } else if command == "status".to_string() {
         println!("Status is {}", status);
     } else {
         println!("That is not a valid command");
